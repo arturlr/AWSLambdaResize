@@ -6,7 +6,7 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "kenobi",
+    "profile"     : "user",
     "region"      : "us-west-2",
     "configuration" : "Release",
     "framework"     : "netcoreapp2.1",
@@ -15,7 +15,7 @@
     "function-timeout"     : 30,
     "function-handler"     : "AWSLambdaLab::AWSLambdaLab.Function::FunctionHandler",
     "function-name"        : "ReziseJpg",
-    "function-role"        : "arn:aws:iam::514046899996:role/lambda_selfie_app_role",
+    "function-role"        : "arn:aws:iam::0123456789012:role/lambda_selfie_app_role",
     "tracing-mode"         : "PassThrough",
     "environment-variables" : ""
 }
